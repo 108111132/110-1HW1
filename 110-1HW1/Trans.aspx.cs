@@ -12,10 +12,9 @@ namespace _110_1HW1
         protected void Page_Load(object sender, EventArgs e)
         {
             double c, d_value;
-            d_value = 3.928;
+            d_value = 3.982;
             c = d_value * d_value;
-            response.write("d_value =" + d_value + "*" + d_value + "=" + c);
-          
+            Response.Write("d_value=" + d_value + "*" + d_value + "=" + c);
         }
     }
 }
